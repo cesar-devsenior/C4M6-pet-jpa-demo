@@ -1,0 +1,14 @@
+###
+GET http://localhost:8080/api/people
+
+###
+POST http://localhost:8080/api/people
+Content-Type: application/json
+
+{
+    "id": 8,
+    "name": "VALERIA SARAI",
+    "phone": "3141234567",
+    "email": "valeria@email.com",
+    "salary": 60000.0
+  }
